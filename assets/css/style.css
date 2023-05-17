@@ -28,7 +28,7 @@ body {
 
 .tarjeta {
 	width: cover;
-	transition: transform 2s ease;
+	transition: transform 0.2s ease;
 }
 
 .tarjeta:hover {
