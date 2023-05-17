@@ -7,65 +7,237 @@
     <meta name="author" content="Ricardo Serra Díaz">
     <meta name="descripción" content="Desarollador de Tecnología">
     <meta name="Copyright" content="Todos los derechos reservados">
-    <meta name="keywords" content="Chile, Blue, navegador, ad-block, bloqueador de anuncios, eliminar publicidad, gratis">
+    <meta name="keywords" content="Chile, restobar, restaurant, chorrillana, mojito, tragos, santiago, coctel, comida tipica, gastronomia, turismo, panorama">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
     integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&family=Rubik:wght@500&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="assets/img/Favicon.png">
-    <title>Blue Explorer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <title>METRÓPOLIS RESTOBAR</title>
 </head>
 <body>
 
-<!--Seccion central-->
-<section class="central container-fluid">
-<div class="central2 row justify-content-center">
-  <div class="text-white text-center col-12 col-xs-10 -col-sm-10 col-md-6 col-lg-6 col-xl-4 pb-3">
-    <h1 class="px-4">Navega sin interrupciones</h1>
-    <div class="d-sm-none d-md-none d-lg-none d-xl-none row col-xs-8 -col-sm-8">
-      <img src="assets/img/Mockup2.png" class="portadasm" alt="navegador2">
-    </div>
-    <div class="pt-3 pb-4 px-2" >
-    <div id="logoini" class="d-inline">Blue</div>
-    <div class="descripccion d-inline"> bloquea los anuncios molestos y las ventanas emergentes al instante.</div>
-    </div>
-    <div class="pb-3">
-      <a class="boton btn text-white" id="enviar" href="#" role="button">Descargalo Gratis</a>
-    </div>
-  </div>
-  <div class="d-none d-sm-block row col-12 col-xs-12 -col-sm-12 col-md-8 col-lg-8 col-xl-6">
-    <img src="assets/img/Mockup.jpg" class="portada" alt="navegador">
-  </div>
-</div>
-</section>
-  
+    <section id="menucentral">
+      <div class="tarjetas row mx-auto">
+            <a id="tarjeta1" class="tarjeta col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4" href="#deldia">
+              <h4 class="titulo px-1 text-center text-white">ESPECIALIDAD DEL CHEF</h4>
+            </a>
+            <a id="tarjeta2" class="tarjeta col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4" href="#bebestibles"> 
+              <h4 class="titulo px-1 text-center text-white">CARTA DE BEBESTIBLES</h4>
+            </a>
+            <a id="tarjeta3" class="tarjeta col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4" href="#gastronomia"> 
+              <h4 class="titulo px-1 text-center text-white">CARTA GASTRONOMICA</h4>
+            </a>
+        </div>
+    </section>
 
-<!--Seccion olas-->
-<section>
-<div class="bg-color">
-<div class="wave wave1"></div>
-<div class="wave wave2"></div>
-<div class="wave wave3"></div>
-</div>
-</section>
 
-<!--Sección footer-->
-<footer class="container-fluid">
-  <div class="final pb-1">
-      <div class="iconos ms-auto col-4 col-xs-4 col-sm-4 col-xl-2 col-lg-2">
-          <a class="icon " href="https://twitter.com/"><i class="fab fa-2x fa-twitter-square" style="color: #ffffff;"></i></a>
-          <a class="icon px-2" href="https://fb.com/"><i class="fab fa-2x fa-facebook-square" style="color: #ffffff;"></i></a>
+    <!--Sección plato del día-->
+    <section>
+      <div id="deldia" class="deldia row mx-auto text-center py-5">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+          <h2 class="container-fluid text-white py-2">PLATO METROPOLIS DEL DIA</h2>
+            <p class="parrafo1 pt-2 pb-2 px-4">Pasta de Ñoqui 100% artesanal con exquisita salsa de tomates y trozos carne mechada.</p>
+            <p class="parrafo2 pb-1 pt-1">Disfrutalo sólo por hoy a $6.500</p>
+          </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+          <img src="assets/img/noquis.jpg" class="img-fluid" alt="ñoquis">
+        </div>
       </div>
-  </div>
-</footer>
+    </section>
+
+    <!--Sección Carta de coctelería-->
+    <section >
+    <div class="mx-auto pt-3">
+      <div id="bebestibles" class="text-center">
+        <h2 class="text-white py-2">CARTA DE BEBESTIBLES</h2>
+      </div>
+      <div id="cocteles" class="row col-xs-11 col-sm-11 col-md-11 col-lg-11 col-xl-11 col-xxl-11 mx-auto pt-4 text-center">
+        <div class="col-xs-3 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 ps-1">
+          <h3>VINOS</h3>
+          <ul>
+          <li class="lista">Copa Leblanc Tres Medallas.............. $6.000</li>
+          <li class="lista">Copa Del Monte Reserva.................... $8.000</li>
+          <li class="lista">Copa Viñedo Santo............................ $10.000</li>
+          <li class="lista">Copa Aromas del Campo.................. $12.000</li>
+          <li class="lista">Leblanc Tres Medallas 750 ml....... $12.000</li>
+          <li class="lista">Del Monte Reserva 750 ml............. $15.000</li>
+          <li class="lista">Viñedo Santo 750 ml....................... $20.000</li>
+          <li class="lista">Aromas del campo 750 ml............. $25.000</li>
+        </ul>
+        </div>
+        <div class="col-xs-3 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 ps-1">
+          <h3>CERVEZAS</h3>
+          <ul>
+            <li class="lista">Shop Stella Artois................................ $5.000</li>
+            <li class="lista">Shop Heineken...................................... $5.000</li>
+            <li class="lista">Shop Budweiser.................................... $5.500</li>
+            <li class="lista">Shop Monte Verde Sabores................ $7.000</li>
+            <li class="lista">Pitcher Stella Artois.......................... $13.000</li>
+            <li class="lista">Pitcher Heineken............................... $13.000</li>
+            <li class="lista">Pitcher Budweiser............................. $14.000</li>
+            <li class="lista">Pitcher Monte Verde Sabores......... $18.000</li>
+          </ul>
+        </div>
+        <div class="col-xs-3 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 ps-1">
+          <h3>DESTILADOS</h3>
+          <ul>
+            <li class="lista">Vaso de Ron Havana Club.................. $6.000</li>
+            <li class="lista">Vaso de Pisco Alto del Carmen......... $6.000</li>
+            <li class="lista">Vaso de Vodka Absolut Sabores........ $7.000</li>
+            <li class="lista">Vaso de Whisky Jack Daniels............ $8.000</li>
+            <li class="lista">Havana Club reserva 750 ml.......... $35.000</li>
+            <li class="lista">Alto del Carmen 750 ml................... $35.000</li>
+            <li class="lista">Absolut Sabores 750 ml................... $37.000</li>
+            <li class="lista">Jack Daniels black 750 ml.............. $40.000</li>
+          </ul>
+        </div>
+        <div class="col-xs-3 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 ps-1">
+          <h3>COCTELES</h3>
+          <ul>
+            <li class="lista">Sangría................................................... $6.000</li>
+            <li class="lista">Tequila Sunrise..................................... $6.000</li>
+            <li class="lista">Pisco Sour.............................................. $7.000</li>
+            <li class="lista">Piña Colada ............................................$7.000</li>
+            <li class="lista">Amararetto Sour .................................. $7.500</li>
+            <li class="lista">Mojito Sabores ..................................... $7.500</li>
+            <li class="lista">Baileys ................................................ $10.000</li>
+            <li class="lista">Clavo Oxidado.................................... $12.000</li>
+          </ul>
+        </div>
+        <div class="col-xs-3 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 ps-1">
+          <h3>BEBIDAS CALIENTES</h3>
+          <ul>
+            <li class="lista">Té Sabores.............................................. $1.500</li>
+            <li class="lista">Exprés..................................................... $2.000</li>
+            <li class="lista">Americano.............................................. $2.500</li>
+            <li class="lista">Café Juan Valdez.................................. $3.000</li>
+            <li class="lista">Capuchino.............................................. $3.500</li>
+            <li class="lista">Mocaccino.............................................. $3.500</li>
+            <li class="lista">Café Bombón......................................... $3.500</li>
+            <li class="lista">Frappuccino........................................... $4.000</li>
+          </ul>
+        </div>
+        <div class="col-xs-3 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 ps-1">
+          <h3>JUGOS Y BEBIDAS</h3>
+          <ul>
+            <li class="lista">Vaso de Bebida Sabores...................... $1.500</li>
+            <li class="lista">Vaso de Néctar Sabores...................... $1.500</li>
+            <li class="lista">Agua Mineral c/s Gas.......................... $2.000</li>
+            <li class="lista">Bebida energética Variedades........... $2.500</li>
+            <li class="lista">Vaso de Jugo Natural Sabores........... $3.500</li>
+            <li class="lista">Jarro de Jugo Natural Sabores 1lt... $10.000</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!--Sección Carta gastronomica-->
+    <section >
+      <div class="mx-auto pb-5">
+        <div id="gastronomia" class="text-center pt-5">
+          <h2 class="text-white py-2">CARTA GASTRONOMICA</h2>
+        </div>
+        <div class="row col-xs-11 col-sm-11 col-md-11 col-lg-11 col-xl-11 col-xxl-11 mx-auto pt-4 text-center">
+          <div class="col-xs-3 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 ps-1">
+            <h3>APERITIVOS</h3>
+            <ul>
+              <li class="lista">Sopaipillas (4)........................................ $1.500</li>
+              <li class="lista">Aros de Cebolla (8).............................. $2.000</li>
+              <li class="lista">Empanaditas (6)................................... $2.000</li>
+              <li class="lista">Papas Fritas........................................... $2.000</li>
+              <li class="lista">Arrollados de Primavera (5).............. $2.000</li>
+              <li class="lista">Wantán (10).......................................... $2.000</li>
+              <li class="lista">Salchipapas .......................................... $3.000</li>
+              <li class="lista">Camarones Apanados(15).................. $3.500</li>
+            </ul>
+          </div>
+          <div class="col-xs-3 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 ps-1">
+          <h3>ENTRADAS</h3>
+          <ul>
+            <li class="lista">Sopa de Espárragos.............................. $1.500</li>
+            <li class="lista">Pan Amasado y Pebre.......................... $1.500</li>
+            <li class="lista">Caldo de Mariscos................................ $1.500</li>
+            <li class="lista">Consomé de Vacuno............................. $1.500</li>
+            <li class="lista">Crema de Tomate................................. $2.000</li>
+            <li class="lista">Crema de Choclo.................................. $2.000</li>
+            <li class="lista">Crema de Lentejas............................... $2.000</li>
+            <li class="lista">Leche de Tigre...................................... $5.000</li>
+          </ul>
+          </div>
+          <div class="col-xs-3 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 ps-1">
+            <h3>PLATOS FRÍOS</h3>
+            <ul>
+              <li class="lista">Tomate Relleno.................................... $6.000</li>
+              <li class="lista">Pimentón Relleno................................ $6.500</li>
+              <li class="lista">Mariscal de Almejas............................ $7.000</li>
+              <li class="lista">Ceviche de Reineta.............................. $7.000</li>
+              <li class="lista">Ceviche de Pulpo.................................. $7.000</li>
+              <li class="lista">Ceviche Mixto....................................... $8.000</li>
+              <li class="lista">Ensalada Cesar..................................... $8.000</li>
+              <li class="lista">Palta Reina.......................................... $10.000</li>
+            </ul>
+          </div>
+          <div class="col-xs-3 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 ps-1">
+            <h3>PLATOS CALIENTES</h3>
+            <ul>
+              <li class="lista">Puré con Carne Mechada................... $6.000</li>
+              <li class="lista">Espaguetis con Salsa Alfredo............ $6.000</li>
+              <li class="lista">Lasaña Boloñesa................................... $7.000</li>
+              <li class="lista">Ñoquis con Salsa Roja........................ $8.000</li>
+              <li class="lista">Lomo Salteado...................................... $8.000</li>
+              <li class="lista">Causa Limeña........................................ $8.000</li>
+              <li class="lista">Tabla de Tres Carnes......................... $10.000</li>
+              <li class="lista">Chorrillana........................................... $12.000</li>
+              
+            </ul>
+          </div>
+          <div class="col-xs-3 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 ps-1">
+            <h3>ENSALADAS</h3>
+            <ul>
+              <li class="lista">Lechuga y Repollo................................ $1.500</li>
+              <li class="lista">Tomate y Cebolla.................................. $1.500</li>
+              <li class="lista">Habas...................................................... $1.500</li>
+              <li class="lista">Pepino..................................................... $1.500</li>
+              <li class="lista">Beterraga............................................... $1.500</li>
+              <li class="lista">Choclo..................................................... $1.500</li>
+              <li class="lista">Primavera............................................. $2.000</li>
+              <li class="lista">Rusa....................................................... $2.000</li>
+            </ul>
+          </div>
+          <div class="col-xs-3 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 ps-1">
+            <h3>POSTRES</h3>
+            <ul>
+              <li class="lista">Sémola a la Naranja............................. $2.000</li>
+              <li class="lista">Arroz con Leche.................................... $2.000</li>
+              <li class="lista">Leche Asada........................................... $2.000</li>
+              <li class="lista">Maicena con Caramelo........................ $2.000</li>
+              <li class="lista">Panqueques con Manjar y Helado..... $3.000</li>
+              <li class="lista">Flan de Toffee......................................... $3.000</li>
+              <li class="lista">Suspiro Limeño...................................... $3.500</li>
+              <li class="lista">Trozo de pastel....................................... $3.500</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      </section>
 
 
-
+    <!--footer-->
+    <footer class="container-fluid">
+      <div class="row justify-content-center text-center">
+          <div class="col-12 col-xs-4 col-sm-4 col-xl-2 col-lg-2 mt-3 mb-3">
+              <a class="icon" href="https://instagram.com/"><i class="fab fa-2x fa-instagram"></i></a>
+              <a class="icon" href="https://fb.com/"><i class="fab fa-2x fa-facebook-square" style="color: #ffffff;"></i></a>
+          </div>
+      </div>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
-  <script src="assets/js/ViajesChile.js"></script>  
+  <script src="assets/js/metropolis.js"></script>  
 
 </body>
 </html>
