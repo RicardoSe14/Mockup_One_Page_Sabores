@@ -15,7 +15,6 @@ body {
   }  
 
 .titulo {
-	text-decoration: underline;
 	padding-top: 20px !important;
 	font-size: calc(1.3rem + 0.6vw) !important;
 	padding-bottom: 20px !important;
